@@ -1,0 +1,47 @@
+h1, h2, h3, h4 {
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-top: 20px;
+}
+p {
+  font-family: 'Roboto', sans-serif;
+}
+body {
+  background-color: rgb(188, 220, 255);
+}
+nav >ul >li>a{
+  font-family: 'Roboto', sans-serif;
+  font-size: 25px;
+  border-style: solid;
+  border-top-width: 5px; 
+  border-color: rgb(188, 220, 255);
+}
+nav >ul >li>a:link {
+  color:orange;
+  background-color: rgb(20, 70, 157);
+}
+nav >ul >li>a:hover {
+  color:orange;
+  background-color: rgb(37, 105, 255);
+}
+nav >ul >li>a:active {
+  color:red;
+  background-color: rgb(20, 70, 157);
+}
+nav >ul >li>a:visited {
+  color:orange;}
+.headlogo{
+  border-top-style: solid;
+  border-width: 5px;
+  border-color: rgb(188, 220, 255);
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(20, 70, 157);
+  color: white;
+  text-align: center;
+}
