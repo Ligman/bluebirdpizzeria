@@ -1,5 +1,5 @@
 h1, h2, h3, h4 {
-  font-family: 'Oswald', sans-serif;
+font-family: 'Acme', sans-serif;
   font-weight: bold;
   text-transform: uppercase;
   margin-top: 20px;
@@ -11,10 +11,10 @@ body {
   background-color: rgb(188, 220, 255);
 }
 nav >ul >li>a{
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Acme', sans-serif;
   font-size: 25px;
   border-style: solid;
-  border-top-width: 5px; 
+  border-top-width: 5px;
   border-color: rgb(188, 220, 255);
 }
 nav >ul >li>a:link {
