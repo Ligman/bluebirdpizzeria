@@ -1,5 +1,7 @@
-$(document).foundation()
-var today = Date();
+$(document).foundation();
+var today = new Date();
+console.log(today);
+console.log(today.getHours());
 var hourNow = today.getHours();
 var greeting;
 
